@@ -1,0 +1,118 @@
+body {
+    font-family: 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #001F3F, #7FDBFF, #0074D9, #DDDDDD);
+    color: #333;
+}
+
+#navbar {
+    background-color: #001F3F;
+    padding: 10px;
+    position: fixed; 
+    width: 100%; 
+    top: 0; 
+    z-index: 1000; 
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#welcome-section {
+    background: linear-gradient(to right, #001F3F, #7FDBFF, #0074D9, #DDDDDD);
+}
+
+#projects {
+    background-color: #001F3F;
+}
+
+.project-tile {
+    background-color: #001F3F;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.project-link {
+    display: block;
+    margin-top: 10px;
+    background-color: #0074D9;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#contact {
+    background-color: #001F3F;
+}
+
+#contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-button {
+    background-color: #0074D9;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #DDDDDD;
+    color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+#profile-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+#profile-link:hover {
+    text-decoration: underline;
+}
+
+/*@media screen and (max-width: 768px) {} only when i need*/
