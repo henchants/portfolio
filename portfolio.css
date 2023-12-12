@@ -1,3 +1,7 @@
+*{
+    color:white;
+}
+
 body {
     font-family: 'Times New Roman', serif;
     margin: 0;
@@ -114,5 +118,3 @@ footer {
 #profile-link:hover {
     text-decoration: underline;
 }
-
-/*@media screen and (max-width: 768px) {} only when i need*/
